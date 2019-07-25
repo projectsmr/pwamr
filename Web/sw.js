@@ -5,8 +5,7 @@ const verCache = 'mrVer-v1';
 
 var urlsACachear = [
     './',
-    './Content/',
-    './scripts/',
+    './Content/estilos.css',
     './manifest.json',
     './Images/1.png',
     './Images/2.png',
@@ -17,17 +16,17 @@ var urlsACachear = [
     './Images/facebook.png',
     './Images/instagram.png',
     './Images/twitter.png',
-    './Images/favicon-1024.png',
-    './Images/favicon-512.png',
-    './Images/favicon-384.png',
-    './Images/favicon-256.png',
-    //'./Images/favicon-192.png',
-    //'./Images/favicon-144.png',
-    './Images/favicon-128.png',
-    './Images/favicon-96.png',
-    './Images/favicon-64.png',
-    './Images/favicon-32.png',
-    './Images/favicon-16.png',
+    './Images/favicon1024.png',
+    './Images/favicon512.png',
+    './Images/favicon384.png',
+    './Images/favicon256.png',
+    './Images/favicon192.png',
+    './Images/favicon144.png',
+    './Images/favicon128.png',
+    './Images/favicon96.png',
+    './Images/favicon64.png',
+    './Images/favicon32.png',
+    './Images/favicon16.png',
     './Images/favicon.png'
 ];
 
