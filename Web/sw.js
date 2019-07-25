@@ -6,6 +6,7 @@ const verCache = 'mrVer-v1';
 var urlsACachear = [
     './',
     './Content/estilos.css',
+    './Content/bootstrap.css',
     './manifest.json',
     './Images/1.png',
     './Images/2.png',
