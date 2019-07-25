@@ -23,11 +23,11 @@
       "src": "./images/favicon-256.png",
       "type": "image/png"
     },
-    {
-      "sizes": "192x192",
-      "src": "./images/favicon-192.png",
-      "type": "image/png"
-    },
+    //{
+    //  "sizes": "192x192",
+    //  "src": "./images/favicon-192.png",
+    //  "type": "image/png"
+    //},
     //{
     //  "sizes": "144x144",
     //  "src": "./images/favicon-144.png",
