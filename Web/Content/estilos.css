@@ -1,0 +1,289 @@
+﻿body,html{
+    overflow-x:hidden;
+}
+body {
+    background: white;
+}
+
+.clearFix {
+    clear: both;
+    float: none;
+}
+/*#region EstilosGenerales */
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Open Sans',Verdana;
+}
+/*#endregion */
+/*#region Cabecera */
+
+#main-header {
+    background: white;
+    height: 100px;
+    line-height: 85px;
+}
+
+#logo {
+    width: 50%;
+    float: left;
+}
+
+    #logo h1 {
+        font-weight: bold;
+        font-size: 25px;
+        color: #FB314E;
+        margin-top: 25px;
+    }
+
+#menu {
+    width: 450px;
+    float: left;
+}
+
+    #menu ul li {
+        list-style: none;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+        #menu ul li a {
+            color: black;
+        }
+
+            #menu ul li a:hover {
+                color: #FB314E;
+            }
+/*#endregion */
+/*#region Slider */
+#slider {
+    height: 300px;
+    background: #FB314E;
+}
+
+    #slider h2 {
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        line-height: 290px;
+        text-shadow: 0px 0px 6px black;
+    }
+
+
+
+/*#endregion */
+/*#region Categorias y Servicios */
+.subheader {
+    font-size: 34px;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(251,49,78,0.3);
+}
+
+.elementosCat {
+    width: 33%;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .elementosCat h3 {
+        margin-bottom: 10px;
+    }
+
+    .elementosCat p {
+        color: #444;
+    }
+
+.elementosServ {
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .elementosServ p {
+        color: #444;
+    }
+
+/*#endregion */
+
+/*#region Footer */
+#divFooter {
+    background: #333;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+    #divFooter .subheader {
+        color: white;
+    }
+
+#networks {
+    width: 216px;
+    margin: 0px auto;
+    list-style: none;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    #networks li {
+        float: left;
+        margin: 0 20px 0 20px;
+        transition: all 300ms;
+    }
+
+        #networks li:hover {
+            opacity: 0.8;
+            transform: scale(1.1,1.1);
+        }
+
+/*#endregion */
+
+
+
+/*#region Imagenes */
+
+.img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 48px;
+}
+
+.imgUno {
+    background-image: url('../Images/1.png');
+    background-repeat: no-repeat;
+    width: 48px;
+}
+
+.imgDos {
+    background-image: url('../Images/2.png');
+    background-repeat: no-repeat;
+    width: 42px;
+}
+
+.imgTres {
+    background-image: url('../Images/3.png');
+    background-repeat: no-repeat;
+    width: 48px;
+}
+
+.imgTwitter {
+    background-image: url('../Images/twitter.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: auto;
+}
+
+.imgFacebook {
+    background-image: url('../Images/facebook.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: auto;
+}
+
+.imgInstagram {
+    background-image: url('../Images/instagram.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: auto;
+}
+
+/*#endregion */
+
+/*@media all and (max-width:1000px){
+    #main-header{
+        background:green;
+    }
+}*/
+
+@media (max-width:1200px) {
+
+    #main-header {
+        height: 70px;
+        line-height: 65px;
+    }
+
+    #logo {
+        width: 220px;
+        float: none;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    #menu {
+        float: none;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width:992px) {
+    #slider h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:768px) {
+    #slider {
+        overflow: hidden;
+        height: 150px;
+    }
+
+        #slider h2 {
+            font-size: 30px;
+            line-height: 30px;
+            margin-top: 10%;
+        }
+}
+
+@media (max-width:767px) {
+    .elementosCat {
+        width: 70%;
+        float: none;
+        margin: 0px auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .elementosServ {
+    width: 70%;
+    float: none;
+     margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+}
+
+@media (max-width:440px) {
+    #menu {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+        #menu ul li {
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+
+    #main-header {
+        height: auto;
+    }
+}
