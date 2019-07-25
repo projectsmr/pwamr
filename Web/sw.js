@@ -21,7 +21,7 @@ var urlsACachear = [
     './Images/favicon-384.png',
     './Images/favicon-256.png',
     './Images/favicon-192.png',
-    './Images/favicon-144.png',
+    //'./Images/favicon-144.png',
     './Images/favicon-128.png',
     './Images/favicon-96.png',
     './Images/favicon-64.png',
